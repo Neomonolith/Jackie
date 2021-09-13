@@ -42,7 +42,9 @@ namespace Jackie
 
     private static void harmdadikfeladat()
     {
-     
+      Console.WriteLine("3. Feladat: hány adatsort tartalmaz");
+      Console.WriteLine($"{lista.Count}");
+
     }
 
     private static void masodikfeladat()
