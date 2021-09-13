@@ -37,7 +37,18 @@ namespace Jackie
 
     private static void negyedikfeladat()
     {
-      
+      Console.WriteLine("4. Feladat: ");
+      int maxev = 0, maxrace = 0;
+      foreach (var l in lista)
+      {
+        if (l.Races>maxrace)
+        {
+          maxrace = l.Races;
+          maxev = l.Year;
+        }
+      }
+      Console.WriteLine($"{maxev}");
+
     }
 
     private static void harmdadikfeladat()
